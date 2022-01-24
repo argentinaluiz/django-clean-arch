@@ -1,0 +1,27 @@
+GET http://localhost:8000/api/categories
+
+GET http://localhost:8000/api/categories/UUID
+
+POST http://localhost:8000/api/categories
+
+{
+    "name": "categoria nome",
+    "description": "descrição",
+    "is_active": true
+}
+
+PUT http://localhost:8000/api/categories/UUID
+
+{
+    "name": "categoria nome",
+    "description": "descrição",
+    "is_active": true
+}
+
+DELETE http://localhost:8000/api/categories/UUID
+
+{
+    "name": "categoria nome",
+    "description": "descrição",
+    "is_active": true
+}

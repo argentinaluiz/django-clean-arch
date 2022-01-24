@@ -1,0 +1,17 @@
+{
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "cSpell.language": "en,pt,pt_BR",
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/__pypackages__/3.9/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/__pypackages__/3.9/lib"
+    ]
+}
